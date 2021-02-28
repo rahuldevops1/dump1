@@ -33,7 +33,7 @@ pipeline {
 
     stage('archile') {
       steps {
-        junit '8.xml'
+        junit '*.xml'
       }
     }
 
